@@ -62,21 +62,14 @@ body {
 
 .title__clr {
     color: #FFF2F2;
-    color: #FFC100;
-    color: #EABE6C;
-
-
-    color: #F9D923;
-
-    color: #FFAA64;
-    color: #DE703B;
+    
     color: #FCB040;
-    color: #FFDE4D;
-    color: #FFB22C;
-    color: #FA7D09;
-    color: #FF6E31;
-    color: #FFD369;
-    color: #FA4032;
+    color: #F6BF4F;
+    color: #FEC260;
+    color: #FDD365;
+    /* color: #fbb346; */
+    /* color: #C14600; */
+  
 }
 
 /* .title__clr--yellow {
@@ -88,9 +81,13 @@ body {
 .card__title--clr {
     /* color: #F9D923; */
     color: #FFDE4D;
+    color: #E2703A;
+    color: #FF884B;
     /* color: #F6FB7A; */
 }
 
 .footer__text--clr {
     color:#232020;
+    /* color: #303841;
+    color: #222831; */
 }

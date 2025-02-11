@@ -2,7 +2,19 @@
     width: 100%;
     height: auto;
     padding: .5em 0;
-    background: #FA4032;
+    /* background: #FA4032; */
+   
+   
+    background: #FEC260;
+    /* background: #FCB040; */
+    /* background: #F6BF4F; */
+    /* background: #fbb346; */
+   
+    background: #FDD365;
+   
+   
+    /* background: #fbc354;
+    background: #fdc85e; */
     position: fixed;
     left: 0;
     right: 0;
@@ -28,7 +40,7 @@
     border-radius: 50%;
     background: #FA4032;
     background: #222831;
-    background: #232020;
+    /* background: #232020; */
     /* background: #FFC100; */
     /* background: #FAB12F; */
     /* background-color: #FFC100; */
@@ -58,9 +70,39 @@
     margin: 0 auto;
     height: 3px;
     /* background: #FA4032; */
-    background: #FFC100;
-    background: #222831;
-    background: #FA4032;
+    
+   
+   
+    
+
+
+    background: #C14600;
+  
+   
+   
+   
+   
+  
+   
+   
+    
+    background: #ECB159;
+    background: #FEC260;
+
+    background: #FDD365;
+    /* background: #FCB040; */
+    /* background: #F6BF4F; */
+    /* background: #fbb346; */
+   
+
+    
+   
+   
+   
+    background: #fbc354;
+    background: #fdc85e;
+    /* background: #222831;
+    background: #FA4032; */
 }
 
 .hamburger::before,
@@ -80,7 +122,8 @@
 .page__name {
     font-size: 2rem;
     color: #222831;
-    color: #232020;
+    /* color: #232020; */
+    /* color: #303841; */
     /* color: color-mix(in srgb, #000000 70%, #CA005E 45%); */
     /* color: #FFC100; */
     font-weight: 800;

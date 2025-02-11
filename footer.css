@@ -1,16 +1,23 @@
 .footer__content {
     width: 100%;
     padding-block: .35em;
-    background: #FA4032;
+    /* background: #FA4032; */
+   
+    background: #FEC260;
+    background: #FDD365;
+    /* background: #FCB040; */
+   
+    
+    /* background: #F6BF4F;
+    background: #fbb346; */
+    /* background: #fbc354;
+    background: #fdc85e; */
+   
     position: fixed;
     bottom: 0;
     z-index: 2;
 }
 
-
-/* .footer__contact {
-    color: color-mix(in srgb, #000000 70%, #CA005E 45%);
-} */
 
 .footer__group--display {
     display: grid;
