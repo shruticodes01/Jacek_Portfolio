@@ -1,0 +1,119 @@
+.header__content {
+    width: 100%;
+    height: auto;
+    padding: .5em 0;
+    background: #FA4032;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.nav__container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #FA4032;
+    background: #222831;
+    background: #232020;
+    /* background: #FFC100; */
+    /* background: #FAB12F; */
+    /* background-color: #FFC100; */
+    /* background: #FFDE4D; */
+    /* background: color-mix(in srgb, #000000 70%, #CA005E 45%);
+    color: #FFF2F2; */
+    transition: opacity 250ms ease;
+
+    position: absolute;
+    right: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .8;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    /* background: #FA4032; */
+    background: #FFC100;
+    background: #222831;
+    background: #FA4032;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.page__name {
+    font-size: 2rem;
+    color: #222831;
+    color: #232020;
+    /* color: color-mix(in srgb, #000000 70%, #CA005E 45%); */
+    /* color: #FFC100; */
+    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+    /* margin-left: auto; */
+}
+
+.nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+}
+
+.nav--visible {
+    visibility: visible;
+    height: 100%;
+    position: relative;
+}
+
+.nav__item {
+    /* color: #4f0025; */
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav__item+.nav__item {
+    margin-top: .5em;
+}
+
+.nav__list {
+    margin: 1.5em 0 .85em;
+}

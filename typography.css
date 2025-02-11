@@ -1,0 +1,96 @@
+body {
+
+    background: #FA4032;
+    background: #41444B;
+    background: #303841;
+    background: #222831;
+    /* background: #232020; */
+    /* background: #393E46; */
+
+    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-weight: 400;
+    /* color: #F1C550; */
+    /* color:  #FFF2F2;
+    color: #FFEDD8;
+    color: #FFF8EA; */
+    color: #fff8eadf;
+
+}
+
+.font__size--xl {
+    Font-size: 3.25rem;
+    Font-size: clamp(2rem, 1.546rem + 4.54vw, 3.25rem);
+}
+
+.font__size--lg {
+    font-size: 1.2rem;
+    font-size: clamp(1.25rem, .978rem + 1.7vw, 2rem);
+    font-size: clamp(1.25rem, 1rem + 1.56vw, 1.9375rem);
+    /* font-size: 1.25rem; */
+}
+
+.font__size--md {
+
+    font-size: 1.2rem;
+    font-size: clamp(1rem, .928rem + .36vw, 1.2rem);
+    font-size: clamp(1rem, .91rem + .45vw, 1.25rem);
+
+    font-size: clamp(1rem, .928rem + .36vw, 1.2rem);
+    font-size: clamp(1rem, .91rem + .45vw, 1.25rem);
+    font-size: clamp(1.15rem, 1.11rem + .209vw, 1.25rem);
+}
+
+.font__size--sm {
+    font-size: 1.1rem;
+    font-size: clamp(1.1rem, 1.0637rem + .2vw, 1.2rem);
+}
+
+.font__size--card {
+    font-size: clamp(1.15rem, 1.132rem + .104vw, 1.2rem);
+    font-size: clamp(1rem, .928rem + .36vw, 1.2rem);
+}
+
+.font__size--text {
+    font-size: 1rem;
+    font-size: clamp(.875rem, .83rem + .198vw, 1rem);
+    font-size: clamp(.9375rem, .915rem + .106vw, 1rem);
+    font-size: clamp(.95rem, .9319rem + .086vw, 1rem);
+}
+
+
+.title__clr {
+    color: #FFF2F2;
+    color: #FFC100;
+    color: #EABE6C;
+
+
+    color: #F9D923;
+
+    color: #FFAA64;
+    color: #DE703B;
+    color: #FCB040;
+    color: #FFDE4D;
+    color: #FFB22C;
+    color: #FA7D09;
+    color: #FF6E31;
+    color: #FFD369;
+    color: #FA4032;
+}
+
+/* .title__clr--yellow {
+    color: #F9D923;
+    color: #FFDE4D;
+    /* color: #F6FB7A; 
+}*/
+
+.card__title--clr {
+    /* color: #F9D923; */
+    color: #FFDE4D;
+    /* color: #F6FB7A; */
+}
+
+.footer__text--clr {
+    color:#232020;
+}
